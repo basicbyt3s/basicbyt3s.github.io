@@ -78,17 +78,3 @@ h1{
     right: 50px;
 }
 
-.index-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.math,
-.computing,
-.welcome-description,
-.misc
-{
-    margin: 30px;
-}
-
