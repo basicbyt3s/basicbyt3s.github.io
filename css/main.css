@@ -1,0 +1,68 @@
+/*
+COLORS 
+
+BG
+EEE2DC
+
+SECONDARD BG 
+EDC7B7
+
+GRAY 
+BAB2B5
+
+PRIMARY
+123C69
+
+SECONDARD
+AC3B61
+
+*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    font-weight: 700;
+    color: #123C69;
+}
+
+/* HEADER*/
+.navbar{
+    background-color: #EDC7B7;
+    color: #123C69 !important;
+}
+
+.navbar-brand{
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+a {
+    color: #123C69 !important;
+}
+
+/*  HERO  */ 
+
+.hero{
+    background-color: #EDC7B7;
+}
+
+.badges{
+    position: absolute;
+    top:20px;
+    right: 50px;
+}
+
+.hero-post-content {
+    position: absolute;
+    bottom: 20px;
+}
+
+.hero-post-content img {
+    border: 2px solid #AC3B61;
+}
