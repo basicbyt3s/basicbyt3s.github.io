@@ -22,7 +22,6 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -49,7 +48,28 @@ a {
 /*  HERO  */ 
 
 .hero{
-    background-color: #EDC7B7;
+    background-color: #EEE2DC;
+}
+
+.hero-container {
+    display: flex;
+    background-color: #EEE2DC;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome-description {
+    margin-top: 50px;
+    width: 500px;
+}
+
+h1{
+    font-size: 8rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #123C69;
 }
 
 .badges{
@@ -58,11 +78,3 @@ a {
     right: 50px;
 }
 
-.hero-post-content {
-    position: absolute;
-    bottom: 20px;
-}
-
-.hero-post-content img {
-    border: 2px solid #AC3B61;
-}
